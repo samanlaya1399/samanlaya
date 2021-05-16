@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/admin.css": "/css/admin.css",
+    "/css/homepage.css": "/css/homepage.css",
+    "/css/singlepost.css": "/css/singlepost.css",
+    "/css/devision.css": "/css/devision.css",
+    "/js/devision.js": "/js/devision.js",
+    "/js/singlepost.js": "/js/singlepost.js",
+    "/js/homepage.js": "/js/homepage.js",
+    "/js/admin.js": "/js/admin.js"
+}

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/yekan.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/yekan.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/yekan.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+.scroll{
+    font-family: yekan;
+    font-size: 14px;
+}
+
+.bigTitle a:hover{
+    color: rgba(74,194,190,.9);
+}
+
+.white-popup{
+    text-align: center;
+}
+
+.white-popup p, .white-popup button{
+
+    font-family: yekan;
+}
+
+.white-popup p{
+
+    font-family: Sahel;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4ac2be;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    width: 64%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.bigTitle a h6:hover{
+    color: #4ac2be;
+}
